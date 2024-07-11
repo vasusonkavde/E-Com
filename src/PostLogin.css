@@ -1,0 +1,53 @@
+/* PostLogin.css */
+.post-login {
+    background-image: url('./images/burger1.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    height: 100vh; 
+  }
+  
+  .post-login .content {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width:100%;
+    height:60vh;
+  }
+  
+  .post-login h1 {
+    font-size: 24px;
+    margin-bottom: 35px;
+  }
+  
+  .post-login button {
+    display: block;
+    margin: 10px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .button {
+    width: 300px;
+    border-radius: 25px;
+    margin-top: 20px;
+  }
+  
+  .post-login button:first-of-type {
+    background-color: orange;
+    color: white;
+  }
+  
+  .post-login button:last-of-type {
+    background-color: transparent;
+    margin-top: 20px;
+    color: #777;
+    font-weight: 400;
+  }
+  
